@@ -1,10 +1,9 @@
 # Complete RV32I processor
 
-Currently this is a single cycle RV32I processor. 
-
+An RV32I processor with single-cycle and pipelined implementation. 
 # Opcodes implemented
 
-Basically every opcode in RV32I except  __ecall__ and __ebreak__ are implemented.
+Basically, every opcode in RV32I except  __ecall__ and __ebreak__ is implemented.
 But I shall elaborate
 
 ## R-Type Instructions
@@ -76,7 +75,7 @@ But I shall elaborate
 
 
 # Innovative Approaches
- - Added a mux to select full words, half words and bytes to data memory and registers to load and store half words and bytes.
+ - Added a mux to select full words, half-words, and bytes to data memory and registers to load and store half-words and bytes.
  - Tweaked PC circuitry to include JALR instruction
 
  # Suggestions
